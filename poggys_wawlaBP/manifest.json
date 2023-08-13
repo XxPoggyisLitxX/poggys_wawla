@@ -1,0 +1,53 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Poggy's WAWLA [BP]",
+        "description": "Original WAILA Java Mod by §eprofmobius. §cThis is not a port of his mod.",
+		"uuid": "c28b41dc-f7b7-9479-a6ea-432a46957b6a",
+		"version": [
+            1,
+            0,
+            17
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            50
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "7ebdfb15-9de3-46d4-84f7-1c8691b5af04",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "16b646cb-98eb-41b2-a9e0-dd7f088caab4",
+            "entry": "scripts/main_main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "capabilities": [
+        "script_eval"
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.4.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}
